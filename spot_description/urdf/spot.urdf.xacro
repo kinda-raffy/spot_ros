@@ -27,7 +27,7 @@
         <parent link="body" />
         <child link="front_rail" />
     </joint>
-        
+
     <link name="camera">
         <visual>
             <geometry>
