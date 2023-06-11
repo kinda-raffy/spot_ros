@@ -42,7 +42,7 @@
     </joint>
 
     <link name="origin" />
-    <joint name="origin_joint" type="fixed">
+    <joint name="origin_joint" type="floating">
         <origin xyz="0 0 0" rpy="0 0 0" />
         <parent link="camera" />
         <child link="origin" />
